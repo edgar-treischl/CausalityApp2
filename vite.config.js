@@ -6,7 +6,7 @@ import path from 'path';
 
 export default defineConfig(({ mode }) => ({
   plugins: [vue(), tailwindcss()],
-  base: mode === 'production' ? '/CausalityApp2/' : '/',
+  base: mode === 'production' ? '/VueTestApp/' : '/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
